@@ -10,7 +10,7 @@ public class Application {
         TelegramBotsApi botsApi = new TelegramBotsApi();
 
         try{
-            botsApi.registerBot(new MyFirstBot());
+            botsApi.registerBot(new ThirdBot());
         }catch (TelegramApiException e){
             e.printStackTrace();
         }

@@ -22,11 +22,13 @@ public class MyFirstBot extends TelegramLongPollingBot {
         }
     }
 
+
+
     public String getBotUsername() {
         return "MyFirstBot";
     }
 
     public String getBotToken() {
-        return "855714235:AAFa0p_mwy_IEpp2ob_SUwAkq1sqaRWvrRs";
+        return "";
     }
 }
